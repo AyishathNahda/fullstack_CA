@@ -1,0 +1,28 @@
+.service-card{
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(162, 212, 209, 0.63);
+    background-color:rgb(110, 171, 167);
+    position: relative;
+
+}
+.service-title{
+    font-size: 20px;
+    color:rgb(17, 5, 69);
+    font-weight: bold;
+}
+.service-description{
+    font-size: 15px;
+    color: rgb(0,0,0);
+    
+}
+
+.service-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+}
